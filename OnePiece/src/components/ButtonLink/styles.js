@@ -2,9 +2,13 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 
-export const Container = styled(Link)`
-    background: none;
+export const Container = styled.div`
     border: none;
-    color: ${({ theme, isActive }) => isActive ? theme.COLORS.ORANGE : theme.COLORS.TEXT};
+    background: #000000;
     cursor: pointer;
+    border-radius: 50%;
+
+    img {
+    border-radius: 50%;
+    }
 `;

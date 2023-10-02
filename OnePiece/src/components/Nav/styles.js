@@ -1,21 +1,17 @@
 import styled from 'styled-components';
 
-export const Container = styled.nav`
-    grid-area: menu;
-    border-radius: 30px;
-    border: solid 1px #7D7373;
-    margin-bottom: auto;
-    margin-top: auto;
+export const Container = styled.ul`
+    position: fixed;
+    top: 0;
+    right: 0;
     
-    svg {
-        margin: 5px;    
-        width: 25px;
-    }
-    a {
-        text-decoration: none;
-        color: #7D7373;
-    }
-    @media (max-width: 990px) {
-       
-    }
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, .3);
 `;
