@@ -1,0 +1,26 @@
+<li>
+                <NavLink className="botao" to='/chopper'
+                    style={({ isActive }) => {return {transform: isActive ? "scale(1.2)" : "scale(1)", }}}>
+                    <img src="./src/imagens/tripulacao-chopper.png" alt="tripulacao chopper" />
+                </NavLink>
+            </li>
+            <li>
+                <NavLink className="botao" to='/zoro'>
+                    <img src="./src/imagens/tripulacao-zoro.png" alt="tripulacao zoro" />
+                </NavLink>
+            </li>
+            <li>
+                <NavLink className="botao" to='/luffy'>
+                    <img src="./src/imagens/tripulacao-luffy.png" alt="tripulacao luffy" />
+                </NavLink>
+            </li>
+            <li>
+                <NavLink className="botao" to='/nami'>
+                    <img src="./src/imagens/tripulacao-nami.png" alt="tripulacao nami" />
+                </NavLink>
+            </li>
+            <li>
+                <NavLink className="botao" to='/sanji'>
+                    <img src="./src/imagens/tripulacao-sanji.png" alt="tripulacao sanji" />
+                </NavLink>
+            </li>
