@@ -1,9 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { Chopper } from './pages/Chopper'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import {Routes} from './routes';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Chopper />
+    <Routes />
   </React.StrictMode>
 )

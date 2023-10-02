@@ -1,12 +1,15 @@
-import { Container } from './styles'
-import { ButtonLink } from '../ButtonLink'
+import { Container } from "./styles"
+import { AiOutlineHome } from 'react-icons/ai'
+import { ButtonLink } from "../ButtonLink";
+
 
 export function Nav() {
-    return (
+    
+    return(
         <Container>
             <ButtonLink to='/'
                 style={({ isActive }) => {return {color: isActive ? "#FF5C00" : '#7D7373',}}}
-                title='ola'
+            title={<AiOutlineHome />}
             />
         </Container>
     )

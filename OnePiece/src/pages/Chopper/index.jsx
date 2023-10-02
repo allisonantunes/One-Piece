@@ -1,11 +1,11 @@
-import { Nav } from '../../components/navegation'
 import { Container } from './styles'
+import { Nav } from "../../components/Nav"
 
 export function Chopper() {
     return(
         <Container>
+            <h1>ola</h1>
             <Nav />
-            <h1>olá</h1>
         </Container>
     )
 }
