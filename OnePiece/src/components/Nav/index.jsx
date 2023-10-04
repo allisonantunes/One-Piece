@@ -13,8 +13,7 @@ export function Nav() {
     
     return(
         <Container>
-            <ButtonLink to='/'
-                style={({ isActive }) => {return {transform: isActive ? 'scale(1.2)' : 'scale(1)', boxshadow: isActive ? '0 0 10px #d9d9d9' : '' }}}
+            <ButtonLink to='/' className='botao'
                 title={<img src={tripulacaoChopper} /> }
             />
 

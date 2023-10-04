@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.ul`
+export const Container = styled.div`
     position: fixed;
     top: 0;
     right: 0;
@@ -14,4 +14,9 @@ export const Container = styled.ul`
     gap: 10px;
 
     background-color: rgba(0, 0, 0, .3);
+
+    .botao {
+        transform: ${({ isActive }) => isActive ? 'scale(1.2)' : 'scale(1)'};
+        box-shadow: ${({ isActive }) => isActive ? '0 0 10px #d9d9d9' : ''};
+    }
 `;
